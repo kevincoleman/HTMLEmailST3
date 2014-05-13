@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<tr>
+  <td height="$1"${2: bgcolor="$3"}>
+    <img height="$1" width="1" src="http://emails.premiercellar.com/html-emails/GeneralAssets/spacer.gif" border="0" hspace="0" style="display:block" alt="">
+  </td>
+</tr>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>vert</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

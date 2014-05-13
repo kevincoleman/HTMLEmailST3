@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+${1:?}utm_source=PremierCellarEMA&amp;utm_medium=email&amp;utm_term=${2:LINKTERM}&amp;utm_content=firstSend&amp;utm_campaign=${3:CAMPAIGNNAME}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gatags</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
