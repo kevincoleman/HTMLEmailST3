@@ -17,7 +17,7 @@
             <tr valign="middle">
               <td>
                 <center>
-                  <a href="${8:CAMPAIGNURL}firstSend.html?utm_source=PremierCellarEMA&amp;amp;utm_medium=email&amp;amp;utm_term=webVersion&amp;amp;utm_content=firstSend&amp;amp;utm_campaign=CAMPAIGNNAME" style="font-family:helvetica, arial, sans-serif; font-size:12px; line-height:12px; text-decoration:none; color:#666666;">
+                  <a href="${8:CAMPAIGNURL}firstSend.html" style="font-family:helvetica, arial, sans-serif; font-size:12px; line-height:12px; text-decoration:none; color:#666666;">
                     Trouble viewing this email? <span style="text-decoration: underline;">View a web version</span>.
                   </a>
                 </center>
@@ -51,6 +51,7 @@
 
 <!--LINK_TARGET-->
 <!--CAMPAIGNNAME-->
+
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>template</tabTrigger>
