@@ -25,8 +25,8 @@ ORGANIZATION_NAME   : Your company name string (no spaces)
 IMG_NAME            : Image filename (no spaces, no extension)
 EXT                 : The image file’s extension
 PROJECT_NAME        : Your email project name (no spaces)
-PROJECT_TITLE       : The email project’s title, visible to the user in inbox and tab
-PROJECT_URL         : The absolute URL to your project folder (including final /)
+PROJECT_TITLE       : The email project’s title, for the user in inbox
+PROJECT_URL         : The absolute project URL (with final /)
 LINK_TARGET         : The click-through target URL for the link
 ALT_TEXT            : The image’s alternate text
 
