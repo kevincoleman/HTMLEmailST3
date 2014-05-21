@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 <center>
-  <a href="LINK_TARGET?utm_source=PremierCellarEMA&amp;utm_medium=email&amp;utm_term=${3:LINKTERM}&amp;utm_content=firstSend&amp;utm_campaign=CAMPAIGNNAME">
+  <a href="LINK_TARGET?utm_source=PremierCellarEMA&amp;utm_medium=email&amp;utm_term=${3:LINK_TERM}&amp;utm_content=firstSend&amp;utm_campaign=CAMPAIGN_NAME">
     <img src="${2:IMAGE_SRC}images/${3:IMG_NAME}.${4:EXT}" alt="${5:ALT_TEXT}" border="0" hspace="0" style="display:block;">
   </a>
 </center>
