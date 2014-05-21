@@ -1,0 +1,61 @@
+<snippet>
+  <content><![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>${1:PROJECT_TITLE}</title>
+    <!--Facebook share properties-->
+    <meta property="og:url" content="${2:PROJECT_URL}firstSend.html"/>
+    <meta property="og:title" content="${1:PROJECT_TITLE}"/>
+    <meta property="og:image" content="${2:PROJECT_URL}images/share.jpg"/>
+  </head>
+
+  <body marginwidth="0" marginheight="0" leftmargin="0" topmargin="0"${3: style="background-image: url('${2:PROJECT_URL}images/bg.jpg'); background-position: top center;"}${5: bgcolor="#$6"}>
+    <table width="100%" cellspacing="0" cellpadding="0" border="0"${3: style="background-image: url('${2:PROJECT_URL}images/bg.jpg'); background-position: top center;"}${5: bgcolor="#$6"}>
+      <tr>
+        <td>
+
+          <center style="font-family:helvetica, arial, sans-serif; font-size:0px; line-height:0px; color:#${5:${6:666666}}; display: none; visibility: hidden;">${1:PROJECT_TITLE}</center>
+
+          <table width="650" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tr valign="middle">
+              <td>
+                <center>
+                  <a href="${2:PROJECT_URL}firstSend.html" style="font-family:helvetica, arial, sans-serif; font-size:12px; line-height:12px; text-decoration:none; color:#666666;">
+                    Trouble viewing this email? <span style="text-decoration: underline;">View a web version</span>.
+                  </a>
+                </center>
+              </td>
+              <td width="100">
+                <a href="http://www.facebook.com/sharer.php?u=${2:PROJECT_URL}firstSend.html">
+                  <img src="${2:PROJECT_URL}/images/iconFacebookShare.png" alt="Share on Facebook" border="0" hspace="0" style="display:block; width:100px;">
+                </a>
+              </td>
+              <td width="100">
+                <a href="http://twitter.com/home?status=${2:PROJECT_URL}firstSend.html">
+                  <img src="${2:PROJECT_URL}/images/iconTwitterShare.png" alt="Share on Twitter" border="0" hspace="0" style="display:block; width:100px;">
+                </a>
+              </td>
+              <td width="100">
+                <a href="%%FORWARDTHIS%%">
+                  <img src="${2:PROJECT_URL}/images/iconForward.png" alt="Forward" border="0" hspace="0" style="display:block; width:100px;">
+                </a>
+              </td>
+            </tr>
+          </table>
+
+
+
+        </td>
+      </tr>
+    </table>
+
+  </body>
+</html>
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>template</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

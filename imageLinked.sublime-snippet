@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
-<a href="LINK_TARGET?utm_source=PremierCellarEMA&amp;utm_medium=email&amp;utm_term=${2:LINKTERM}&amp;utm_content=firstSend&amp;utm_campaign=CAMPAIGN_NAME">
-  <img src="${1:IMAGE_SRC}images/${2:IMG_NAME}.${3:EXT}" alt="${4:ALT_TEXT}" border="0" hspace="0" style="display:block;">
+<a href="LINK_TARGET?utm_source=PremierCellarEMA&amp;utm_medium=email&amp;utm_term=${2:IMG_NAME}&amp;utm_content=firstSend&amp;utm_campaign=PROJECT_NAME">
+  <img src="${1:PROJECT_URL}images/${2:IMG_NAME}.${3:EXT}" alt="${4:ALT_TEXT}" border="0" hspace="0" style="display:block;">
 </a>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-${1:?}utm_source=PremierCellarEMA&amp;utm_medium=email&amp;utm_term=${2:LINK_TERM}&amp;utm_content=firstSend&amp;utm_campaign=${3:CAMPAIGN_NAME}
+${1:?}utm_source=${2:ORGANIZATION_NAME}&amp;utm_medium=email&amp;utm_term=${2:IMG_NAME}&amp;utm_content=firstSend&amp;utm_campaign=${4:PROJECT_NAME}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>gatags</tabTrigger>

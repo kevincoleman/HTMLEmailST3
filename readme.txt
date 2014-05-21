@@ -2,6 +2,9 @@ Clone to your Sublime Text 3 User Packages Folder:
 
 For Mac: '/Users/username/Library/Application Support/Sublime Text 3/Packages/User/'
 
+Then, move the /images folder to reside within your project folder.
+
+
 Contained Snippets:
 
 template  : An HTML email template with tab stops for campaign customization
@@ -16,4 +19,13 @@ sans  	  : A set of sans-serif styling, ideally applied on <td> elements
 serif  	  : A set of serif styling, ideally applied on <td> elements
 
 
-After developing an email, it is still necessary to replace all instances of 'LINK_TARGET' and 'CAMPAIGNNAME'. These two terms are supplied at the bottom of the template snippet as a reminder to address these replacements.
+Snippet Variables:
+
+ORGANIZATION_NAME	: Your company name string (no spaces)
+IMG_NAME			: Image filename (no spaces, no extension)
+EXT					: The image file’s extension
+PROJECT_NAME		: Your email project name (no spaces)
+PROJECT_TITLE		: The email project’s title, visible to the user in inbox and tab
+PROJECT_URL			: The absolute URL to your project folder (including final /)
+LINK_TARGET			: The click-through target URL for the link
+ALT_TEXT			: The image’s alternate text

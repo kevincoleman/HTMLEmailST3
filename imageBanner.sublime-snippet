@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<center>
+  <a href="${1:LINK_TARGET}?utm_source=${2:ORGANIZATION_NAME}&amp;utm_medium=email&amp;utm_term=${5:IMG_NAME}&amp;utm_content=firstSend&amp;utm_campaign=${3:PROJECT_NAME}">
+    <img src="${4:PROJECT_URL}images/${5:IMG_NAME}.${6:EXT}" alt="${7:ALT_TEXT}" border="0" hspace="0" style="display:block;">
+  </a>
+</center>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bnr</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
