@@ -2,7 +2,7 @@ Clone to your Sublime Text 3 User Packages Folder:
 
 For Mac: '/Users/username/Library/Application Support/Sublime Text 3/Packages/User/'
 
-Then, move the /images folder to reside within your project folder.
+Then, move the /images folder to reside within your project folder.*
 
 
 Contained Snippets:
@@ -29,3 +29,5 @@ PROJECT_TITLE		: The email project’s title, visible to the user in inbox and t
 PROJECT_URL			: The absolute URL to your project folder (including final /)
 LINK_TARGET			: The click-through target URL for the link
 ALT_TEXT			: The image’s alternate text
+
+*Don’t forget to upload all your email’s images to a web-public location. Local testing is great, but email recipients won’t be able to see images in your testing environment.
