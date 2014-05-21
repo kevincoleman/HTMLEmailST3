@@ -7,7 +7,7 @@
     <!--Facebook share properties-->
     <meta property="og:url" content="${2:CAMPAIGN_URL}firstSend.html"/>
     <meta property="og:title" content="${1:TITLE}"/>
-    <meta property="og:image" content="${2:CAMPAIGN_URL}share.jpg"/>
+    <meta property="og:image" content="${2:CAMPAIGN_URL}images/share.jpg"/>
   </head>
 
   <body marginwidth="0" marginheight="0" leftmargin="0" topmargin="0"${3: style="background-image: url('${2:CAMPAIGN_URL}images/bg.jpg'); background-position: top center;"}${5: bgcolor="#$6"}>
