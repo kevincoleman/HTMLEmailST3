@@ -15,7 +15,7 @@
       <tr>
         <td>
 
-          <center style="font-family:helvetica, arial, sans-serif; font-size:0px; line-height:0px; color:#${5:${6:666666}}; display: none; visibility: hidden;">${1:PROJECT_TITLE}</center>
+          <center style="font-family:helvetica, arial, sans-serif; font-size:0px; line-height:0px; color:#${7:666666}; display: none; visibility: hidden;">${1:PROJECT_TITLE}</center>
 
           <table width="650" cellspacing="0" cellpadding="0" border="0" align="center">
             <tr valign="middle">
@@ -44,7 +44,7 @@
             </tr>
           </table>
 
-
+          $0
 
         </td>
       </tr>
