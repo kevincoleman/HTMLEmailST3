@@ -8,6 +8,19 @@
     <meta property="og:url" content="${2:PROJECT_URL}firstSend.html"/>
     <meta property="og:title" content="${1:PROJECT_TITLE}"/>
     <meta property="og:image" content="${2:PROJECT_URL}images/share.jpg"/>
+
+    <!--responsive rules for mobile screens-->
+    <style type="text/css">
+      @media only screen and (max-device-width: 480px) {
+        table[class=singleColumn] { 
+          width:300px !important;
+        }
+      }
+      div, p, a, li, td {
+        -webkit-text-size-adjust:none;
+      }
+    </style>
+
   </head>
 
   <body marginwidth="0" marginheight="0" leftmargin="0" topmargin="0"${3: style="background-image: url('${2:PROJECT_URL}images/bg.jpg'); background-position: top center;"}${5: bgcolor="#$6"}>

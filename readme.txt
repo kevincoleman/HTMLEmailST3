@@ -30,4 +30,7 @@ PROJECT_URL         : The absolute project URL (with final /)
 LINK_TARGET         : The click-through target URL for the link
 ALT_TEXT            : The image’s alternate text
 
+Other notes:
+There is a pre-filled meta property that points to “share.jpg” for an image to be used when sharing the emails on Facebook, Twitter, etc. This image should be included in the project’s “images” folder in order to be used.
+
 *Don’t forget to upload all your email’s images to a web-public location. Local testing is great, but email recipients won’t be able to see images in your testing environment.
